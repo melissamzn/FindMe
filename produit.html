@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits_FindME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="produitStyle.css"> 
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><img src="img/logo.png" alt="logo FindME"></div>
+        
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="searchZone">
+                <form id="searchForm">
+                    <input type="search" id="searchInput" placeholder="Rechercher des produits...">
+                    <button type="submit" style="display:none"></button>
+                </form>
+            </div>
+        
+        <ul class="links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits</a></li>
+            <li><a href="index.html#special-packs">Pack Spéciaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="shopping_btn">
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits</a></li>
+            <li><a href="index.html#special-packs">Pack Spéciaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </nav>
+    <!--section meilleurs produits-->
+    <section class="featured_products">
+        <div class="container">
+            <h1>
+                Tous Les Produits
+            </h1>
+            <div class="row">
+                <div class="col-1" id="produit-1">
+                    <img src="img/Bluetooth_Porte-clé.png" alt="produit 1 tracker Bluetooth">
+                    <h3>Porte-clés Bluetooth</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>3000 DA</p>
+                </div>
+                <div class="col-1" id="produit-2">
+                    <img src="img/GPS_voiture-removebg-preview.png" alt="produit 2 tracker GPS Voiture">
+                    <h3>Tracker GPS </h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>23 000 DA</p>
+                </div>
+                <div class="col-1" id="produit-3">
+                    <img src="img/RFID_Etiquette-removebg-preview.png" alt="produit 3 ettiquettes RFID ">
+                    <h3>Ettiquettes RFID</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>1400 DA</p>
+                </div>
+                <div class="col-1" id="produit-4">
+                    <img src="img/RFID_Label-removebg-preview.png" alt="produit 4 ettiquettes Labels">
+                    <h3>Étiquette Label (avec QR code)</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>1000 DA</p>
+                </div>
+                <div class="col-1" id="produit-5">
+                    <img src="img/RFID_carte-removebg-preview.png" alt="produit 5 carte RFID">
+                    <h3>Carte RFID</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>2300 DA</p>
+                </div>
+                <div class="col-1" id="produit-6">
+                    <img src="img/RFID_Bracelet-removebg-preview.png" alt="produit 6 bracelet RFID">
+                    <h3>Bracellet RFID</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>3500 DA</p>
+                </div>
+                <div class="col-1" id="produit-7">
+                    <img src="img/GPS_animaux-removebg-preview.png" alt="tracker gps pour animaux">
+                    <h3>Tracker GPS Pour Animaux</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>19 000 DA</p>
+                </div>
+                <div class="col-1" id="produit-8">
+                    <img src="img/GPS_valise-removebg-preview.png" alt="tracker gps pour valise">
+                    <h3>Tracker GPS Pour Valise</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>18 500 DA</p>
+                </div>
+                <div class="col-1" id="produit-9">
+                    <img src="img/Bluetooth_Bracelet-removebg-preview.png" alt="bracelet Bluetooth">
+                    <h3>Bracelet Bluetooth</h3>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>9 500 DA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--fin de la  section meilleurs produits-->
+    <!-- Modal pour les détails du produit -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalProductImage" src="" alt="">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalProductTitle"></h2>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p id="modalProductPrice" class="price"></p>
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p id="modalProductDescription"></p>
+                    </div>
+                    <div class="advantages">
+                        <h3>Avantages</h3>
+                        <ul id="modalProductAdvantages"></ul>
+                    </div>
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Panier -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">&times;</span>
+            <h2>Votre Panier</h2>
+            <div class="cart-content">
+                <!-- Les articles du panier seront ajoutés ici dynamiquement -->
+            </div>
+            <div class="cart-footer">
+                <h3>Total: <span class="cart-total">0 DA</span></h3>
+                <button class="clear-cart">Vider le panier</button>
+                <button class="checkout">Passer la commande</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- À propos -->
+                <div class="footer-section">
+                    <h3>À propos de FindME</h3>
+                    <p>FindME révolutionne la façon dont vous protégez vos objets précieux. Grâce à nos technologies avancées de localisation, ne perdez plus jamais ce qui compte pour vous.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Liens rapides -->
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#produits">Nos Produits</a></li>
+                        <li><a href="#special-packs">Pack Spéciaux</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#support">Support</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>Nos Services</h3>
+                    <ul>
+                        <li><a href="#">Localisation GPS</a></li>
+                        <li><a href="#">Étiquettes RFID</a></li>
+                        <li><a href="#">Trackers Bluetooth</a></li>
+                        <li><a href="#">Assurance ObjetSûr</a></li>
+                        <li><a href="#">Support 24/7</a></li>
+                        <li><a href="#">Application mobile</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+213 (0) 123 456 789</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>contact@findme.dz</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>123 Rue de la Technologie, Alger, Algérie</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Importation du fichier JS principal -->
+    <script src="carte.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Corrige le décalage immédiatement
+            if(window.location.hash) {
+                const target = document.querySelector(window.location.hash);
+                if(target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 100,
+                        behavior: 'instant'
+                    });
+                }
+            }
+
+            // Gestion du menu hamburger
+            const toggleBtn = document.querySelector('.toggle_btn');
+            const toggleBtnIcon = document.querySelector('.toggle_btn i');
+            const dropdownMenu = document.querySelector('.dropdown_menu');
+        
+            // Gestion de la recherche
+            const searchButton = document.querySelector('.search');
+            const searchIcon = document.querySelector('.search i');
+            const searchZone = document.querySelector('.searchZone');
+            const searchInput = document.getElementById('searchInput');
+            
+            // Initialisation - La barre de recherche est fermée au départ
+            searchZone.style.display = 'none';
+            
+            // Toggle du menu hamburger
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function() {
+                    dropdownMenu.classList.toggle('open');
+                    const isOpen = dropdownMenu.classList.contains('open');
+                    
+                    toggleBtnIcon.className = isOpen
+                        ? 'fa-solid fa-xmark'
+                        : 'fa-solid fa-bars';
+                });
+            }
+            
+            // Fonction pour fermer la barre de recherche
+            function closeSearchBar() {
+                searchZone.style.display = 'none';
+                searchIcon.className = 'fa-solid fa-magnifying-glass';
+                // Supprimer les résultats s'ils existent
+                const existingResults = document.getElementById('searchResults');
+                if (existingResults) {
+                    existingResults.remove();
+                }
+            }
+            
+            // Fonction pour ouvrir la barre de recherche
+            function openSearchBar() {
+                searchZone.style.display = 'block';
+                searchIcon.className = 'fa-solid fa-xmark';
+                searchInput.focus();
+            }
+            
+            // Toggle de la barre de recherche
+            if (searchButton) {
+                searchButton.addEventListener('click', function(e) {
+                    e.stopPropagation(); // Empêche la propagation du clic
+                    if (searchZone.style.display === 'none') {
+                        openSearchBar();
+                    } else {
+                        closeSearchBar();
+                    }
+                });
+            }
+            
+            // Gestion de la soumission du formulaire de recherche
+            const searchForm = document.getElementById('searchForm');
+            if (searchForm) {
+                searchForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const query = searchInput.value;
+                    if (query.trim() !== '') {
+                        filterProducts(query);
+                    }
+                });
+            }
+            
+            // Recherche en temps réel lors de la saisie
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    const query = this.value;
+                    if (query.trim() === '') {
+                        // Réinitialiser l'affichage de tous les produits
+                        document.querySelectorAll('.col-1').forEach(product => {
+                            product.style.display = 'block';
+                        });
+                        return;
+                    }
+                    
+                    filterProducts(query);
+                });
+            }
+            
+            // Fermer la recherche en cliquant en dehors
+            document.addEventListener('click', function(e) {
+                if (!searchZone.contains(e.target) && !searchButton.contains(e.target)) {
+                    closeSearchBar();
+                }
+            });
+            
+            // Empêcher la fermeture lors d'un clic sur la zone de recherche
+            searchZone.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+
+            // Gestion des liens internes
+            document.querySelectorAll('a[href^="#produit-"]').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    if(target) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: target.offsetTop -100,
+                            behavior: 'smooth'
+                        });
+                        // Mise à jour de l'URL sans rechargement
+                        history.pushState(null, null, targetId);
+                    }
+                });
+            });
+            
+            // Gestion des clics sur les produits
+            document.querySelectorAll('.col-1').forEach((product, index) => {
+                product.addEventListener('click', () => {
+                    const modal = document.getElementById('productModal');
+                    const productData = products[index];
+                    
+                    // Vérifier que productData existe
+                    if (productData) {
+                        // Remplir le modal avec les données du produit
+                        document.getElementById('modalProductImage').src = productData.image;
+                        document.getElementById('modalProductTitle').textContent = productData.title;
+                        document.getElementById('modalProductPrice').textContent = productData.price;
+                        document.getElementById('modalProductDescription').textContent = productData.description;
+                        
+                        const advantagesList = document.getElementById('modalProductAdvantages');
+                        advantagesList.innerHTML = '';
+                        productData.advantages.forEach(advantage => {
+                            const li = document.createElement('li');
+                            li.textContent = advantage;
+                            advantagesList.appendChild(li);
+                        });
+                        
+                        // Afficher le modal
+                        modal.style.display = 'block';
+                    } else {
+                        console.error('Données du produit introuvables pour l\'index:', index);
+                    }
+                });
+            });
+            
+            // Fermer le modal
+            const closeBtn = document.querySelector('.close-btn');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                    document.getElementById('productModal').style.display = 'none';
+                });
+            }
+            
+            // Fermer le modal si on clique en dehors
+            window.addEventListener('click', (event) => {
+                const modal = document.getElementById('productModal');
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+            
+            // Gestion du bouton "Ajouter au panier"
+            const addToCartBtn = document.querySelector('.add-to-cart');
+            if (addToCartBtn) {
+                addToCartBtn.addEventListener('click', () => {
+                    const modalTitle = document.getElementById('modalProductTitle').textContent;
+                    const product = products.find(p => p.title === modalTitle);
+    
+                    if (product) {
+                        addToCart(product);
+                        document.getElementById('productModal').style.display = 'none';
+                        alert('Produit ajouté au panier !');
+                    }
+                });
+            }
+            
+            // Initialisation du panier
+            initCart();
+        });
+        
+        // Fonction de filtrage des produits
+        function filterProducts(searchTerm) {
+            const productElements = document.querySelectorAll('.col-1');
+            const searchLower = searchTerm.toLowerCase();
+            
+            productElements.forEach(product => {
+                const productTitle = product.querySelector('h3').textContent.toLowerCase();
+                
+                if (productTitle.includes(searchLower)) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

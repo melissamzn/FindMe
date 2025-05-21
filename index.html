@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objet perdus, Objet Trouvé !</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    
+</head>
+<body>
+    <!-- barre de navigation-->
+    <!-- En-tête (Logo + Menu) -->
+    <nav class="nav">
+        <div class="logo"><img src="img/logo.png" alt="logo FindME"></div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="searchZone">
+            <form id="searchForm">
+                <input type="search" id="searchInput" placeholder="Rechercher des produits...">
+                <button type="submit" style="display:none"></button>
+            </form>
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits</a></li>
+            <li><a href="index.html#special-packs">Pack Spéciaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="shopping_btn">
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits</a></li>
+            <li><a href="index.html#special-packs">Pack Spéciaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </nav>
+     <!--header-->
+    <header>
+        <h1>Anticipez la perte, protégez vos objets dès aujourd'hui !</h1>
+        <p>Prévenez la perte de vos objets préférés grâce à nos étiquettes intelligentes qui vont protéger vos objets</p>
+        <button href="produit.html"> Je Commande </button>
+    </header>
+     <!--fin header-->
+    <!--section main-->
+    <section class="main">
+        <!--toutes les cartes-->
+        <div class="cards">
+            <h2 class="best-products-title">Nos meilleurs produits</h2>
+            <div class="card">
+                <img src="img/RFID_Label-removebg-preview.png" alt="">
+                <div class="card_header">
+                    <h4>Étiquette Label (avec QR code)</h4>
+                    <h4>1000 da</h4>
+                </div>
+                <div class="card_body">
+                    <p>Étiquette simple et économique<br> avec QR code ultra-résistante <br> à coller sur des objets du quotidien (gourdes, clés, stylos...)<br><br></p>
+                </div>
+                <a href="produit.html#produit-4" class="card-button">Voir le Produit</a>            </div>
+            <div class="card">
+                <img src="img/RFID_Etiquette-removebg-preview.png" alt="">
+                <div class="card_header">
+                    <h4>Étiquettes RFID<br> (13.56 MHz) </h4>
+                    <h4>1400da</h4>
+                </div>
+                <div class="card_body">
+                    <p>poid ruban: 
+                        2.00g <br>
+                        Dimensions: <br>
+                        25.00mm x 1.00mm x 1.00mm <br> 
+                        étiquettes ultra-résistante</p>
+                </div>
+                <a href="produit.html#produit-3" class="card-button">Voir le Produit</a>            </div>
+            <div class="card">
+                <img src="img/Bluetooth_Porte-clé.png" alt="">
+                <div class="card_header">
+                    <h4>Porte-clés Bluetooth </h4>
+                    <h4>1200 da</h4>
+                </div>
+                <div class="card_body">
+                    <p>1 Porte-clés anti-perte actif Bluetooth 
+                        Convient pour : portefeuille, voiture, animaux domestiques... <br> <br></p>
+                </div>
+                <a href="produit.html#produit-1" class="card-button">Voir le Produit</a>            </div>
+            
+        </div>
+        <!--fin de toutes les cartes-->
+        <!--une div -->
+        <section class="share-section">
+            <div class="share-container">
+                <div class="share-info">
+                    <h1>Partagez vos trackers FindME avec votre cercle</h1>
+                    <p>Finies les recherches interminables ! Avec FindME, tous vos objets (et vos proches) sont réunis sur une seule carte. En connectant votre compte FindME avec votre cercle familial :</p>
+                    <ul>
+                        <li><i class="fa-solid fa-users"></i> Toute votre famille peut participer à la recherche d'objets perdus</li>
+                        <li><i class="fa-solid fa-map-location-dot"></i> Visualisez tous vos trackers et vos proches sur une carte unique</li>
+                        <li><i class="fa-solid fa-clock"></i> Gagnez un temps précieux grâce à la recherche collaborative</li>
+                        <li><i class="fa-solid fa-shield-heart"></i> Profitez d'une tranquillité d'esprit accrue pour vos objets de valeur</li>
+                        <li><i class="fa-solid fa-wifi"></i> Bénéficiez d'un réseau de détection élargi grâce à chaque membre</li>
+                    </ul>
+                    <p class="share-highlight">Un membre de votre famille a perdu ses clés ? Un autre peut les localiser instantanément !</p>
+                </div>
+                <div class="share-image">
+                    <img src="img/SHARE-WITH-YOUR-CIRCLE.png" alt="Application mobile montrant le partage des trackers FindME">
+                </div>
+            </div>
+        </section>
+        <!--fin div-->
+    </section>
+    <!--fin de section main-->
+    <!-- Section Pack Spéciaux -->
+    <section id="special-packs" class="special-packs-section">
+        <div class="special-packs-container">
+            <div class="section-title">
+                <h2>Pack Spéciaux</h2>
+                <p>Économisez avec nos offres combinées spécialement conçues pour répondre à tous vos besoins</p>
+            </div>
+            
+            <div class="pack-cards">
+                <!-- Pack Starter -->
+                <div class="pack-card">
+                    <h3>Pack Sarter</h3>
+                    <div class="pack-price">
+                        <span class="price">6 500</span>
+                        <span class="currency">DA</span>
+                    </div>
+                    
+                    <div class="pack-content">
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>1 porte-clés Bluetooth </span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>2 étiquettes RFID </span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>2 étiquettes avec QR code </span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Application Mobile Gratuite</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Assurance ObjetSûr incluse</span>
+                        </div>
+                        <br>
+                    </div>
+                    <button class="pack-button">Voire ce pack</button>
+                </div>
+
+                <!-- Pack Mobilé -->
+                <div class="pack-card">
+                    <h3>Pack Mobilité</h3>
+                    <div class="pack-price">
+                        <span class="price">26 000</span>
+                        <span class="currency">DA</span>
+                    </div>
+                    
+                    <div class="pack-content">
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>1 tracker GPS premium</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>1 tracker GPS pour animal</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Abonnement Standard 1 mois offert</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Historique de localisation 7 jours</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Assurance ObjetSûr incluse</span>
+                        </div>
+                        <br>
+                    </div>
+                    <button class="pack-button">Voire ce pack</button>
+                
+                </div>
+
+                <!-- Pack Ultime -->
+                <div class="pack-card">
+                    <h3>Pack Pro</h3>
+                    <div class="pack-price">
+                        <span class="price">38,000</span>
+                        <span class="currency">DA</span>
+                    </div>
+                    
+                    <div class="pack-content">
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>10 cartes RFID (gestion des accès ou pointage du personnel)</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span> bracelets RFID (accès visiteurs, clients ou staff temporaire)</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>20 étiquettes RFID autocollantes </span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Abonnement Premium 3 mois offert</span>
+                        </div>
+                        <div class="pack-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Assurance ObjetSûr incluse</span>
+                        </div>
+                    </div>
+                    <button class="pack-button">Voire ce pack</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal pour les détails des packs -->
+    <div id="packModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalPackImage" src="" alt="">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalPackTitle"></h2>
+                    <div class="ratting">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p id="modalPackPrice" class="price"></p>
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p id="modalPackDescription"></p>
+                    </div>
+                    <div class="advantages">
+                        <h3>Contenu du pack</h3>
+                        <ul id="modalPackContent"></ul>
+                    </div>
+                    <div class="pack-buttons">
+                        <button class="add-pack-to-cart">Ajouter le pack au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Panier -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">&times;</span>
+            <h2>Votre Panier</h2>
+            <div class="cart-content">
+                <!-- Les articles du panier seront ajoutés ici dynamiquement -->
+            </div>
+            <div class="cart-footer">
+                <h3>Total: <span class="cart-total">0 DA</span></h3>
+                <button class="clear-cart">Vider le panier</button>
+                <button class="checkout">Passer la commande</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- À propos -->
+                <div class="footer-section">
+                    <h3>À propos de FindME</h3>
+                    <p>FindME révolutionne la façon dont vous protégez vos objets précieux. Grâce à nos technologies avancées de localisation, ne perdez plus jamais ce qui compte pour vous.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Liens rapides -->
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#produits">Nos Produits</a></li>
+                        <li><a href="#special-packs">Pack Spéciaux</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#support">Support</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>Nos Services</h3>
+                    <ul>
+                        <li><a href="#">Localisation GPS</a></li>
+                        <li><a href="#">Étiquettes RFID</a></li>
+                        <li><a href="#">Trackers Bluetooth</a></li>
+                        <li><a href="#">Assurance ObjetSûr</a></li>
+                        <li><a href="#">Support 24/7</a></li>
+                        <li><a href="#">Application mobile</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+213 (0) 123 456 789</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>contact@findme.dz</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>123 Rue de la Technologie, Alger, Algérie</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+            
+    <!-- Importation du fichier JS principal -->
+    <script src="carte.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Gestion du menu hamburger
+            const toggleBtn = document.querySelector('.toggle_btn');
+            const toggleBtnIcon = document.querySelector('.toggle_btn i');
+            const dropdownMenu = document.querySelector('.dropdown_menu');
+        
+            // Gestion de la recherche
+            const searchButton = document.querySelector('.search');
+            const searchIcon = document.querySelector('.search i');
+            const searchZone = document.querySelector('.searchZone');
+            const searchInput = document.getElementById('searchInput');
+            
+            // Initialisation - La barre de recherche est fermée au départ
+            searchZone.style.display = 'none';
+            
+            // Toggle du menu hamburger
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function() {
+                    dropdownMenu.classList.toggle('open');
+                    const isOpen = dropdownMenu.classList.contains('open');
+                    
+                    toggleBtnIcon.className = isOpen
+                        ? 'fa-solid fa-xmark'
+                        : 'fa-solid fa-bars';
+                });
+            }
+            
+            // Fonction pour fermer la barre de recherche
+            function closeSearchBar() {
+                searchZone.style.display = 'none';
+                searchIcon.className = 'fa-solid fa-magnifying-glass';
+                // Supprimer les résultats s'ils existent
+                const existingResults = document.getElementById('searchResults');
+                if (existingResults) {
+                    existingResults.remove();
+                }
+            }
+            
+            // Fonction pour ouvrir la barre de recherche
+            function openSearchBar() {
+                searchZone.style.display = 'block';
+                searchIcon.className = 'fa-solid fa-xmark';
+                searchInput.focus();
+            }
+            
+            // Toggle de la barre de recherche
+            if (searchButton) {
+                searchButton.addEventListener('click', function(e) {
+                    e.stopPropagation(); // Empêche la propagation du clic
+                    if (searchZone.style.display === 'none') {
+                        openSearchBar();
+                    } else {
+                        closeSearchBar();
+                    }
+                });
+            }
+            
+            // Gestion de la soumission du formulaire de recherche
+            const searchForm = document.getElementById('searchForm');
+            if (searchForm) {
+                searchForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const query = searchInput.value;
+                    if (query.trim() !== '') {
+                        const results = performSearch(query);
+                        const resultsContainer = displaySearchResults(results);
+                        
+                        // Supprimer les anciens résultats s'ils existent
+                        const existingResults = document.getElementById('searchResults');
+                        if (existingResults) {
+                            existingResults.remove();
+                        }
+                        
+                        // Ajouter les nouveaux résultats
+                        searchZone.appendChild(resultsContainer);
+                    }
+                });
+            }
+            
+            // Recherche en temps réel lors de la saisie
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    const query = this.value;
+                    if (query.trim() === '') {
+                        const existingResults = document.getElementById('searchResults');
+                        if (existingResults) {
+                            existingResults.remove();
+                        }
+                        return;
+                    }
+                    
+                    const results = performSearch(query);
+                    const resultsContainer = displaySearchResults(results);
+                    
+                    // Supprimer les anciens résultats s'ils existent
+                    const existingResults = document.getElementById('searchResults');
+                    if (existingResults) {
+                        existingResults.remove();
+                    }
+                    
+                    // Ajouter les nouveaux résultats
+                    searchZone.appendChild(resultsContainer);
+                });
+            }
+            
+            // Fermer la recherche en cliquant en dehors
+            document.addEventListener('click', function(e) {
+                if (!searchZone.contains(e.target) && !searchButton.contains(e.target)) {
+                    closeSearchBar();
+                }
+            });
+            
+            // Empêcher la fermeture lors d'un clic sur la zone de recherche
+            searchZone.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+            
+            // Bouton header redirect
+            const headerBtn = document.querySelector('header button');
+            if (headerBtn) {
+                headerBtn.addEventListener('click', () => {
+                    window.location.href = 'produit.html';
+                });
+            }
+            
+            // Initialisation du panier
+            initCart();
+            
+            // Gestion des boutons "Voir ce pack"
+            document.querySelectorAll('.pack-button').forEach((button, index) => {
+                button.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    if (packs && packs[index]) {
+                        const packData = packs[index];
+                        
+                        // Remplir le modal avec les données du pack
+                        document.getElementById('modalPackImage').src = packData.image;
+                        document.getElementById('modalPackTitle').textContent = packData.title;
+                        document.getElementById('modalPackPrice').textContent = packData.price;
+                        document.getElementById('modalPackDescription').textContent = packData.description;
+                        
+                        const contentList = document.getElementById('modalPackContent');
+                        contentList.innerHTML = '';
+                        packData.content.forEach(item => {
+                            const li = document.createElement('li');
+                            li.textContent = item;
+                            contentList.appendChild(li);
+                        });
+                        
+                        // Afficher le modal
+                        document.getElementById('packModal').style.display = 'block';
+                    }
+                });
+            });
+            
+            // Fermer le modal des packs
+            const closeBtn = document.querySelector('#packModal .close-btn');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                    document.getElementById('packModal').style.display = 'none';
+                });
+            }
+            
+            // Fermer le modal si on clique en dehors
+            window.addEventListener('click', (event) => {
+                const modal = document.getElementById('packModal');
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+            
+            // Ajouter un pack au panier
+            const addToCartBtn = document.querySelector('.add-pack-to-cart');
+            if (addToCartBtn) {
+                addToCartBtn.addEventListener('click', () => {
+                    const modalTitle = document.getElementById('modalPackTitle').textContent;
+                    if (packs) {
+                        const pack = packs.find(p => p.title === modalTitle);
+                        
+                        if (pack) {
+                            addToCart(pack);
+                            document.getElementById('packModal').style.display = 'none';
+                            alert('Pack ajouté au panier !');
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
